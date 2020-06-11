@@ -1,0 +1,53 @@
+body{
+    background-color: blueviolet;
+    
+}
+h1{
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    color:black;
+    margin: 0px;
+    border-bottom: 5px solid black;
+   text-align: center;
+}
+.signincard{
+    background-color:rgb(238, 238, 238);
+    padding: 20px 50px;
+  
+   position: fixed; 
+   left: 40%;
+   top: 20%
+}
+
+
+.formfeild{
+   
+     padding: 10PX;
+    text-align: center;
+ 
+ }
+.button {
+
+    background-color: blueviolet;
+    
+    
+
+    font-size: 20px;
+    
+    font-family: 'Segoe UI';
+    text-align: center;
+    border-radius: 5px;
+    
+    margin: 20px 20px;
+    padding: 10;
+    
+   
+}
+.button a{
+
+    text-decoration: none;
+    
+    color: white;
+    
+
+}

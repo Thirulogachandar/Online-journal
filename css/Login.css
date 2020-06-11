@@ -1,0 +1,115 @@
+
+
+
+
+body{
+    font-family: 'Segoe UI';
+    background-color: blueviolet;
+    }
+
+
+h1{
+    direction: rtl;
+    font-size: 120px;
+    color:white;
+    margin: 0;
+}
+h2{
+    direction: rtl;
+    font-size: 60px;
+    color:rgba(221, 218, 218, 0.89);
+    margin: 0;
+
+}
+
+.rbox{
+    position: absolute;
+    left: 60%;
+    bottom: 40%;
+    margin: 10px;
+    font: 300 16px arial;
+    font-style: italic;
+    line-height: 2em;
+    
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    
+}
+
+
+.card{
+    
+    position: absolute;
+    left:10%;
+    border-radius: 15px;
+    border: 5px solid white;
+    padding: 20px;
+    
+    text-align: center;
+    font-size: 40px;
+    
+}
+ 
+
+
+.card h2{
+   
+    text-align: left;
+    font-family: verdana;
+    color:white;
+   
+    margin: 0px;
+    padding: 20px;  
+    
+}
+
+
+
+.button {
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+    
+    border:2px solid white;
+    margin:10px 60px;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+
+#signup{
+
+    padding: 10px;
+
+    font-size: 15px;
+}
+
+
+
+.button a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+#signup{
+
+    text-decoration: none;
+   padding: 0px;
+    margin:0px;
+
+}
+#signup a{
+
+    color: white;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: red; 
+    color:white;
+
+}
