@@ -50,7 +50,7 @@ direction: rtl;
     
     display: inline-block;
     position:absolute;
-    
+    left:60%;
     
     font: 300 20px arial;
     font-style: italic;
@@ -67,8 +67,8 @@ direction: rtl;
 
 .card{
     
-    position: absolute;
-    left: 10%;
+    
+    display: inline-block;
     
     
     
