@@ -1,14 +1,17 @@
 body{
     background-image:linear-gradient(to bottom right, rgb(58, 58, 56), rgb(65, 65, 65));
     font-family:'Courier New';
+    position:relative;
 }
 h1{
     
     font-size: 60px;
     color:black;
     text-transform: uppercase;
-    text-align: center;
     font-weight: 100;
+
+    text-align: center;
+
 }
 .signincard{
 
