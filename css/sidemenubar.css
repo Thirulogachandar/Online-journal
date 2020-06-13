@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background: rgb(31, 31, 54);
+  position: fixed;
+ 
+  height: 100%;
+  width: 15%;
+
+
+  line-height: 40px;
+  padding-bottom: 30px;
+  font-family: candara, Arial;
+
+  
+  
+  
+}
+.sidebar h1 {
+  text-transform: capitalize;
+
+  line-height: 60px;
+  padding-top: 40px;
+
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+
+  font-size: 30px;
+
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  background-color: rgb(38, 38, 68);
+}
+.sidebar ul {
+  display: block;
+  text-align: left;
+}
+
+.sidebar li {
+  list-style: none;
+  text-transform: uppercase;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  padding: 20px 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+
+  color: rgb(253, 253, 253);
+}
+
+.sidebar i {
+  margin: 0px 10px;
+}
+.sidebar li:hover .material-icons {
+  padding-left: 20px;
+
+  
+  color: rgb(210, 228, 190);
+}
+.sidebar li:hover {
+  border-left: 5px solid rgb(233, 233, 233);
+  
+  
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  background-color: rgb(158, 216, 50);
+  font-weight: 800;
+}
+#logout:hover .material-icons {
+  color: rgb(214, 52, 52);
+}
+#logout:hover {
+  background-color: rgb(158, 216, 50);
+}
+
+
