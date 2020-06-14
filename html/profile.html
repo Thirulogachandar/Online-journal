@@ -1,50 +1,56 @@
 <html>
-    <head>
-        
-        <title>Profile</title>
-        <meta charset="UTF-8">
-        <meta title="description" content="my profile">
-        <link rel="stylesheet" href="../css/profile.css">
-        
-    </head>
+  <head>
+    <title>Profile</title>
+    <meta charset="UTF-8" />
+    <meta title="description" content="my profile" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/sidemenubar.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+  </head>
 
-    <body >
+  <body>
+    <main>
+      <card class="flex-box">
+        <div class="sidebar">
+          <header>
+            <h1>Online Journal</h1>
+          </header>
+          <ul>
+            <li>
+              <a href="#"><i class="material-icons">home</i>home</a>
+            </li>
+            <li>
+              <a href="#"><i class="material-icons">create</i>create</a>
+            </li>
+            <li>
+              <a href="profile.html"><i class="material-icons">person</i>profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="material-icons">settings</i>settings</a>
+            </li>
+            <li id="logout">
+              <a href="indexx.html"> <i class="material-icons">logout</i>logout</a>
+            </li>
+          </ul>
+        </div>
 
-        <header><h1>Profile</h1></header>
+        <div class="card">
+          <img class="img">
 
-        
-
-        <main >
           
-     
-              
-              <div class="card">
-                  
-                        <img  height="100" src="https://i.pinimg.com/originals/dc/47/43/dc4743ec084be6c45b2c023a39a37925.jpg" alt="profile picture"> <br>
-                            
-                        <ul >
-                                <li ><b>BATMAN</b></li> 
-            
-                                <li><i>DC comics</i> </li>
-                              
-                                <li>GOTHAM CITY</li>
-                                <li><i>Streaks:</i>78</li>
-                           
-                        
-                            </ul>
-                     
-                       
-                        </div>
-                   
-              
-  
-                
-            
-       
-
-        
-            
-        </main>
-    </body>
-
+          <div class="content">
+              <header>sheldon cooper</header>
+              <ul>
+                  <li><i class="material-icons" >mail_outline</i>sheldon@bazzinga.com<i id="edit" class="material-icons">edit</i></li>
+                  <li><i class="material-icons" >phone</i>333-555-448<i id="edit" class="material-icons">edit</i></li>
+                  <li><i class="material-icons" >cake</i>26-feb-1980<i id="edit" class="material-icons">edit</i></li>
+              </ul>
+          </div>
+        </div>
+      </card>
+    </main>
+  </body>
 </html>
