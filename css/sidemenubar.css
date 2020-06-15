@@ -1,4 +1,8 @@
+
+
+
 * {
+  
   margin: 0;
   padding: 0;
   margin: 10px 0px 0px 2px;
@@ -14,6 +18,7 @@ body{
   
   width: 15%;
   margin-top: 30px;
+
   
   
   padding-bottom: 30px;
@@ -27,13 +32,14 @@ body{
   
 }
 .sidebar header {
- 
+  margin:0;
   border: 1px solid rgb(31, 31, 54);
   border-top-left-radius: 15px;
   line-height: 60px;
   
   padding-right: 30px;
   padding-top: 50px;
+  padding-bottom:50px; 
   
 
   color: rgb(255, 255, 255);
@@ -45,8 +51,10 @@ body{
   background-color: rgb(38, 38, 68);
 }
 .sidebar ul {
+  margin: 0px;
   display: block;
   text-align: left;
+  
 }
 
 .sidebar li {
@@ -55,26 +63,33 @@ body{
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-
-  padding: 20px 10px;
+  margin:0;
+  
+  
 }
 
 .sidebar a {
-  text-decoration: none;
+  margin:0;
+  display: flex;
 
+  text-decoration: none;
+  
+  
   color: rgb(253, 253, 253);
+  padding: 20px
+
 }
 
 .sidebar i {
   margin: 0px 10px;
 }
-.sidebar li:hover .material-icons {
+.sidebar a:hover .material-icons {
   padding-left: 20px;
 
   
   color: rgb(210, 228, 190);
 }
-.sidebar li:hover {
+.sidebar a:hover {
   border-left: 3px solid rgb(233, 233, 233);
   
   
