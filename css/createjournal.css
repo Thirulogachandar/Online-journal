@@ -4,18 +4,15 @@ body {
 
 .flex-box {
   display: flex;
-  
-
-  
 }
 
 .content {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  
+
   margin: 30px;
-  
+
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background: rgb(222, 223, 233);
@@ -41,7 +38,7 @@ textarea {
   height: 100%;
   width: 100%;
   resize: none;
-  
+
   margin: 0px;
   background: rgb(255, 255, 255);
   padding: 10px;
@@ -68,8 +65,6 @@ button {
   outline: none;
 }
 #date {
-
-  
   font-size: 15px;
   margin-left: 20px;
   background: blue;
@@ -81,7 +76,6 @@ button {
   appearance: none;
 }
 
-
 button:hover,
 #date:hover {
   background: rgb(1, 1, 136);
@@ -90,24 +84,20 @@ button:hover,
 @media (max-width: 1000px) {
   .flex-box {
     flex-direction: column;
-     
   }
-  .content{
-    border-radius: 0; 
+  .content {
+    border-radius: 0;
   }
-  .button{
-  display:flex;
-    
-  
-  margin: auto;
-  margin-bottom:10px; 
-  justify-content:space-between;
-    
+  .button {
+    display: flex;
+
+    margin: auto;
+    margin-bottom: 10px;
+    justify-content: space-between;
   }
-  
-  .title{
+
+  .title {
     padding-top: 10px;
     font-size: 20px;
-    
   }
 }
