@@ -10,20 +10,18 @@ body {
 .sidebar {
   display: flex;
   flex-direction: column;
-  
-  
+
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  padding-bottom:15px; 
-  margin:20px;
-  
-  
+  padding-bottom: 15px;
+  margin: 20px;
+
   line-height: 40px;
   font-family: candara, Arial;
   background: rgb(31, 31, 54);
 }
 .sidebar header {
-  border: 1px solid  rgb(26, 34, 100);
+  border: 1px solid rgb(26, 34, 100);
   border-top-left-radius: 15px;
   padding: 60px 10px;
 
@@ -53,8 +51,8 @@ body {
 }
 
 .sidebar a {
-  flex:1;
-  
+  flex: 1;
+
   padding: 20px;
 
   text-decoration: none;
@@ -88,49 +86,34 @@ body {
 }
 
 @media (max-width: 1000px) {
-
-  .sidebar{
-    margin:0px;
-    border-radius:15px;
-    padding-bottom: 0; 
+  .sidebar {
+    margin: 0px;
+    border-radius: 15px;
+    padding-bottom: 0;
   }
-  .sidebar header{
-    border-top-left-radius:0px; 
+  .sidebar header {
+    border-top-left-radius: 0px;
     padding: 0px;
   }
-.sidebar ul{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  
-}
-.sidebar li{
-
-  border:0px;
-
-}
-.sidebar a{
-  padding: 0px 10px;
-}
-.sidebar ul .material-icons{
-  display: none;
-}
-.sidebar li:hover {
-  
-  border-left:0;
-}
-
-
-.sidebar header:hover{
- 
-}
-
-.sidebarli {
-
-  display: flex;
-  
-  
-
+  .sidebar ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sidebar li {
+    border: 0px;
+  }
+  .sidebar a {
+    padding: 0px 10px;
+  }
+  .sidebar ul .material-icons {
+    display: none;
+  }
+  .sidebar li:hover {
+    border-left: 0;
+  }
+  .sidebarli {
+    display: flex;
+  }
 }
