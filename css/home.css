@@ -1,118 +1,62 @@
-body{
-    font-family: 'Segoe UI';
-    background-color:white;
+@media (min-width: 500px) {
+  body{
+    background: red;
+  }
+.flex-box {
+  display: flex;
+  
+  
+  
 }
-
-:focus{
-    outline: none;
+.cards {
+ 
+  padding: 18px;
+  display: flex;
+  flex-wrap:wrap; 
+  align-items: flex-start;
 }
-
-
-.topbar{
-    
-    background-color:rgb(22, 22, 22);
-    position: fixed;
-    top:0px;
-    width: 100%;
-}
-
-.topbar h1{
-
-    margin: 0px;
-    padding: 8px;
-    color:white;
-    
-
-}
-.topbar a{
-    position: relative;
-    left:90%;
-    bottom:30;
-    
-    border: 2px solid white;
-   
-    padding: 8px;
-    
-    text-align: center;
-    text-decoration: none;
-    font-weight: 300;
-}
-
-.topbar button{
-    background:none;
-    color: white;
-    border: none;
-    padding: 0;
-}
-
-.textbox{
-    position: relative;
-    top:10%;
-    left:50%;
-
-    margin-top: 5px;
-    display:inline-block;
-    
-
-}
-.textbox textarea{
-    
-    background-color:white;
-    border: 2px solid black;
-    border-radius: 5px;
-    
-    
-}
-
-.textbox button{
-    background:black;
-    color: white;
-    margin: 0 15px;
-    border: none;
-    padding: 10px;
-
 }
 
 
-.today{
 
-    
-    height: 400px;
-
-    position: absolute;;
-    top:10%;
-    display: inline-block;
-
-    
-    
-    margin-top:10px;
-    
+body {
+  margin-top:30px;
+  font-family: "Segoe UI";
+  background-color: white;
 }
 
-.title{
-    font-family: 'Segoe UI';
-    background-color:rgb(214, 16, 16);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    text-align: center;
-    padding: 1px;
-    margin:3px;
-    color: white;
-    text-transform: capitalize;
-    box-shadow: 0 5px 15px -5px black;
+.today-card1 {
+  
+  padding: 18px;  
+  font-family: "Segoe UI";
+  background: rgb(250, 247, 247);
+  box-shadow: 0 5px 15px -5px rgb(58, 210, 236);
 }
-.content{
-    background-color:white;
-    height: 200px;
-    
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    
-    text-align: justify;
-    padding: 15px;
-    margin:3px;
 
-    color:black;
-    box-shadow: 0 5px 15px -5px black;
+.today-card h3 {
+  text-transform: capitalize;
+}
 
+.today-card2 {
+ 
+  padding: 18px;
+
+  font-family: "Segoe UI";
+  background: rgb(250, 247, 247);
+  box-shadow: 0 5px 15px -5px rgb(58, 210, 236);
+}
+
+.today-card3 {
+ 
+  padding: 18px;
+
+  font-family: "Segoe UI";
+  background: rgb(250, 247, 247);
+  box-shadow: 0 5px 15px -5px rgb(58, 210, 236);
+}
+@media (max-width: 1000px) {
+  .flex-box {
+    flex-direction: column;
+     
+  }
 }

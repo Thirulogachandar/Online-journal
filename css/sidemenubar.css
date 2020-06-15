@@ -1,108 +1,137 @@
-
-
-
 * {
-  
   margin: 0;
   padding: 0;
-  margin: 10px 0px 0px 2px;
+}
 
+body {
+  background: rgb(119, 143, 175);
 }
-body{
-  background: rgb(238, 245, 255);
-}
+
 .sidebar {
-  background: rgb(31, 31, 54);
-  
-  display: inline-block;
-  
-  width: 15%;
-  margin-top: 30px;
-
+  display: flex;
+  flex-direction: column;
   
   
-  padding-bottom: 30px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-bottom:15px; 
+  margin:20px;
+  
   
   line-height: 40px;
   font-family: candara, Arial;
-  
-  border: 0px ;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  
+  background: rgb(31, 31, 54);
 }
 .sidebar header {
-  margin:0;
-  border: 1px solid rgb(31, 31, 54);
+  border: 1px solid  rgb(26, 34, 100);
   border-top-left-radius: 15px;
+  padding: 60px 10px;
+
+  text-align: center;
+  font-size: 20px;
   line-height: 60px;
-  
-  padding-right: 30px;
-  padding-top: 50px;
-  padding-bottom:50px; 
-  
-
   color: rgb(255, 255, 255);
-
-  text-align:right;
-  font-size:15px;
-  
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
-  background-color: rgb(38, 38, 68);
+  background-color: rgb(31, 32, 77);
 }
+
 .sidebar ul {
+  display: flex;
+  flex-direction: column;
   margin: 0px;
-  display: block;
   text-align: left;
-  
 }
 
 .sidebar li {
   list-style: none;
   text-transform: uppercase;
+  display: flex;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin:0;
-  
-  
+  margin: 0;
 }
 
 .sidebar a {
-  margin:0;
-  display: flex;
+  flex:1;
+  
+  padding: 20px;
 
   text-decoration: none;
-  
-  
   color: rgb(253, 253, 253);
-  padding: 20px
-
 }
 
-.sidebar i {
-  margin: 0px 10px;
+.material-icons {
+  margin: 5px;
 }
-.sidebar a:hover .material-icons {
+
+.sidebar li:hover .material-icons {
   padding-left: 20px;
 
-  
   color: rgb(210, 228, 190);
 }
-.sidebar a:hover {
+.sidebar li:hover {
   border-left: 3px solid rgb(233, 233, 233);
-  
-  
+
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
-  background-color: rgb(158, 216, 50);
   font-weight: 800;
+
+  background-color: rgb(158, 216, 50);
 }
-#logout:hover .material-icons {
+
+.sidebar li:last-child:hover .material-icons {
   color: rgb(230, 125, 125);
-  
 }
-#logout:hover {
+
+.sidebar li:last-child:hover {
   background-color: rgb(228, 43, 43);
 }
 
+@media (max-width: 1000px) {
 
+  .sidebar{
+    margin:0px;
+    border-radius:15px;
+    padding-bottom: 0; 
+  }
+  .sidebar header{
+    border-top-left-radius:0px; 
+    padding: 0px;
+  }
+.sidebar ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  
+}
+.sidebar li{
+
+  border:0px;
+  
+  
+}
+.sidebar a{
+  padding: 0px 10px;
+}
+.sidebar ul .material-icons{
+  display: none;
+}
+.sidebar li:hover {
+  
+  border-left:0;
+}
+
+
+.sidebar header:hover{
+ 
+}
+
+.sidebarli {
+
+  display: flex;
+  
+  
+
+}
